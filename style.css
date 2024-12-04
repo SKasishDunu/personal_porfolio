@@ -246,7 +246,7 @@ body {
   font-size: 10px;
   border-radius: 3px;
   top: -28px;
-  right: -20px;
+  right: -20;
   animation: showText 0.5s 1.5s linear forwards;
   opacity: 0;
 }
@@ -337,7 +337,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 500;
   animation: showText 0.5s 1s linear forwards;
   opacity: 0;
@@ -349,7 +349,7 @@ body {
   left: 50%;
   bottom: -5px;
   transform: translateX(-50px);
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 500;
   animation: showText 0.5s 1s linear forwards;
   opacity: 0;
@@ -363,7 +363,7 @@ body {
 }
 .protfolio-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(359px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   padding: 3rem 0;
 }
 .row {
@@ -398,7 +398,7 @@ body {
 }
 .layer h5 {
   color: #ff63ed;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 800;
   margin-bottom: 5px;
 }
@@ -443,7 +443,7 @@ body {
   text-align: center;
   align-items: center;
   padding-top: 5rem;
-  padding-right: 5rem;
+  padding-right: 1rem;
 }
 .me {
   display: grid;
